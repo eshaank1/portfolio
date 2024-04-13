@@ -124,3 +124,12 @@ img.socialIcon {
   height: 30px;
   width: 30px;
 }
+
+@keyframes slideInLeft {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
